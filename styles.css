@@ -3,7 +3,7 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 gap: 20px;
 height: 100vh;
-padding: 20px;
+overflow: hidden;
 }
 .heading {
 font-size: 32px;
@@ -91,6 +91,7 @@ font-size: 12px;
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+    max-height: 100vh;
 }
 .auth-left {
     max-width: 404px;
