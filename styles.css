@@ -108,3 +108,21 @@ font-size: 12px;
 body{
     margin: 0;
 }
+.password-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+}
+.password-label a,
+.form-signin a {
+    color: blue;
+    text-decoration: none;
+}
+
+.password-label a {
+    font-size: 8px;
+}
+
+.form-signin {
+    text-align: center;
+}
