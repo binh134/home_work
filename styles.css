@@ -136,6 +136,9 @@ body {
   width: 100%;
   max-width: 400px;
 }
+.img-mobile {
+  display: none;
+}
 @media (max-width: 768px) {
   .form-row {
     flex-direction: row;
@@ -157,4 +160,8 @@ body {
   .img-mobile img {
     width: 100%;
   }
+  .img-mobile {
+    display: block;
+  }
 }
+
