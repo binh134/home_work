@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -13,22 +13,25 @@
         <div class="form">
           <div class="form-email">
             <div class="form-label">Email</div>
-            <input type="email" placeholder="Enter your email" />
+            <input id="email" type="email" placeholder="Enter your email" />
           </div>
           <div class="form-password">
             <div class="password-label">
               <div class="form-label">Password</div>
               <a href="#forgot-password">Forgot password</a>
             </div>
-            <input type="password" placeholder="Password" />
+            <input id="password" type="password" placeholder="Password" />
           </div>
           <div class="form-remember">
             <input type="checkbox" id="terms" />
             <label for="terms">Remember me for 30 days</label>
           </div>
           <div class="form-button">
-            <button>Sign In</button>
+            <button id="signin-button">Sign In</button>
           </div>
+          <div id="form-help" class="form-help">
+            Nhập sai thông tin!
+        </div>
         </div>
         <div class="form-or">
           <div class="form-or-line"></div>
@@ -59,5 +62,6 @@
         <img src="images/images_auth.png" alt="Logo" />
       </div>
     </div>
-  </body>
+    <script src="signin.js"></script>
+   </body>
 </html>
