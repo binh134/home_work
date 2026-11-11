@@ -31,7 +31,7 @@ if (password.length < 8) {
   alert("Đăng ký thành công!");
   emailInput.value = "";
   passwordInput.value = "";
- window.location.href = "login.html";
+  window.location.href = "login.html";
 
 });
 

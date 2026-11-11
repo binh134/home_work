@@ -26,5 +26,5 @@ signinButton.addEventListener("click",function() {
   alert("Đăng nhập thành công!");
   emailInput.value = "";
   passwordInput.value = "";
-  
+
 });
